@@ -1,0 +1,10 @@
+services:
+    mattf.test.controller.acp:
+        class: mattf\test\controller\acp_controller
+        arguments:
+            - '@config'
+            - '@language'
+            - '@log'
+            - '@request'
+            - '@template'
+            - '@user'
